@@ -1,3 +1,4 @@
+#Count no of days in a month
 month = int(input("Enter the month(from 1-12) :"))
 if month==2:
     year = int(input("please enter the year :"))

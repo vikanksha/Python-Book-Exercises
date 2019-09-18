@@ -1,3 +1,4 @@
+# temp conversion
 choice = eval(input("Enter selection"))
 while choice !="F" and choice != "C":
     temp = int(input("enter temp to convert"))
