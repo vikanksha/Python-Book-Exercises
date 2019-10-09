@@ -1,3 +1,4 @@
+import random
 print("The purpose of this exercise is to enter a no of coin values\n that add up to a displayed target value")
 print("Enter coins value as 1-penny, 5-nickle, 10-dim, and 25 quarter")
 print("Hit run after the last entered coin value")
@@ -15,7 +16,7 @@ while not terminate:
             if total == 0:
                 entry = input('enter first coin:')
             else:
-                entry = input('enter second coin:')
+                entry = input('enter next coin:')
             if entry in (empty_str,'1','5','10','25'):
                 valid_entry = True
             else:

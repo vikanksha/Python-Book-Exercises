@@ -15,6 +15,6 @@ def is_valid_password(p):
             ucount = ucount+1
 
     if dcount>=1 and splcount >=1 and ucount >= 1 and len(p)>=6 and p[0].isalpha():
-        return "Valid"
-    return "invalid"
+        return "Valid Password"
+    return "invalid Password"
 print(is_valid_password('Abc@12'))

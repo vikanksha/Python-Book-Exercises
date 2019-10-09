@@ -6,4 +6,6 @@ while no <= max:
     if(no % 2 == 0):
         sum = sum + no
         no = no+1
-print(sum)        
+print(sum)  
+
+     
