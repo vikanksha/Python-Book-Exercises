@@ -1,3 +1,4 @@
+# Write a Python program to convert month name to a number of days.
 print("list of month : January, February, March, April, May, June, July, August, September, October, November, December")
 Month = input("Enter month name :")
 if Month == "Februrary":
